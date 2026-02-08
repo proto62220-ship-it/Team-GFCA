@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Airsoft Tactical Team</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0f0f0f;
+            color: #fff;
+        }
+        header {
+            background: url('https://images.unsplash.com/photo-1603575448360-4f92b99d8c9b') center/cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 3em;
+            text-shadow: 0 0 15px black;
+        }
+        nav {
+            background: #111;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+        nav a {
+            color: #00ff88;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        h2 {
+            color: #00ff88;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        footer {
+            background: #111;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div>
+        <h1>Airsoft Tactical Team</h1>
+        <p>Passion • Stratégie • Fair-play</p>
+    </div>
+</header>
+
+<nav>
+    <a href="#about">Équipe</a>
+    <a href="#rules">Règles</a>
+    <a href="#gallery">Galerie</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>Qui sommes-nous ?</h2>
+    <p>
+        Nous sommes une équipe d’airsoft passionnée, axée sur le réalisme, 
+        la sécurité et le respect. Parties régulières, événements et esprit d’équipe.
+    </p>
+</section>
+
+<section id="rules">
+    <h2>Règles & Sécurité</h2>
+    <ul>
+        <li>Lunettes de protection obligatoires</li>
+        <li>Chrony obligatoire avant chaque partie</li>
+        <li>Fair-play exigé</li>
+        <li>Distances de sécurité respectées</li>
+    </ul>
+</section>
+
+<section id="gallery" class="gallery">
+    <h2>Galerie</h2>
+    <img src="https://images.unsplash.com/photo-1598387993441-a364f854c3e1">
+    <img src="https://images.unsplash.com/photo-1520975922203-b74c7e1d3c0b">
+    <img src="https://images.unsplash.com/photo-1603575448360-4f92b99d8c9b">
+</section>
+
+<section id="contact">
+    <h2>Nous contacter</h2>
+    <p>Email : contact@airsoft-team.fr</p>
+    <p>Instagram : @airsoft_tactical</p>
+</section>
+
+<footer>
+    © 2026 – Airsoft Tactical Team
+</footer>
+
+</body>
+</html>
